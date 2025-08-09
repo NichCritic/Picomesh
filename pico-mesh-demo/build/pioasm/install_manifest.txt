@@ -1,0 +1,5 @@
+/workspace/pico-mesh-demo/build/pioasm-install/pioasm/pioasm
+/workspace/pico-mesh-demo/build/pioasm-install/pioasm/pioasmTargets.cmake
+/workspace/pico-mesh-demo/build/pioasm-install/pioasm/pioasmTargets-release.cmake
+/workspace/pico-mesh-demo/build/pioasm-install/pioasm/pioasmConfig.cmake
+/workspace/pico-mesh-demo/build/pioasm-install/pioasm/pioasmConfigVersion.cmake
