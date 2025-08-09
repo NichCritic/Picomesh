@@ -1,0 +1,34 @@
+{
+  "name": "Pico W Dev (Debian)",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": "."
+  },
+  "remoteEnv": {
+    "PICO_SDK_PATH": "${containerWorkspaceFolder}/pico-sdk"
+  },
+  "postCreateCommand": "bash .devcontainer/setup-pico-sdk.sh",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools",
+        "ms-vscode.cmake-tools",
+        "twxs.cmake",
+        "marus25.cortex-debug"
+      ]
+    }
+  },
+  "mounts": [
+    "type=cache,target=/var/cache/apt,uid=1000,gid=1000",
+    "type=cache,target=/var/lib/apt,uid=1000,gid=1000"
+  ],
+  "settings": {
+    "cmake.configureOnOpen": true,
+    "cmake.generator": "Ninja"
+  },
+  "runArgs": [
+    "--cap-add=SYS_PTRACE",
+    "--security-opt",
+    "seccomp=unconfined"
+  ]
+}
