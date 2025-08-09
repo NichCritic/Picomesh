@@ -1,0 +1,7 @@
+/workspace/pico-mesh-demo/build/pioasm/CMakeFiles/pioasm.dir
+/workspace/pico-mesh-demo/build/pioasm/CMakeFiles/edit_cache.dir
+/workspace/pico-mesh-demo/build/pioasm/CMakeFiles/rebuild_cache.dir
+/workspace/pico-mesh-demo/build/pioasm/CMakeFiles/list_install_components.dir
+/workspace/pico-mesh-demo/build/pioasm/CMakeFiles/install.dir
+/workspace/pico-mesh-demo/build/pioasm/CMakeFiles/install/local.dir
+/workspace/pico-mesh-demo/build/pioasm/CMakeFiles/install/strip.dir
